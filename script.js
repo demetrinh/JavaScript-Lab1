@@ -24,7 +24,7 @@ for (let i=0; i<lifeEvents.length; i++) {
 
 let counter = 0;
 
-// the +1 is added because the random generator going to "10"
+// the +1 is added because the random generator going to "10",
 while (true) {
     let randomNumber = Math.floor((Math.random() * 10) + 1);
     if (randomNumber !==5) {
